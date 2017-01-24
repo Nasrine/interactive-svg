@@ -6,7 +6,7 @@
   animation: eyes 2s linear;
 }
 
-#layer1: hover #eyes {
+#layer1:hover #eyes {
   transform: translate(-10px, 10px);
 }
 
@@ -14,7 +14,7 @@
   animation: nose 2s linear infinite;
 }
 
-#layer1: hover #nose {
+#layer1:hover #nose {
   transform: translate(-10px, 10px);
 }
 
