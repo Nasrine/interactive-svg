@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#eyes {
+  animation: eyes 2s linear;
+}
+
+#layer1: hover #eyes {
+  transform: translate(-10px, 10px);
+}
+
+#nose {
+  animation: nose 2s linear infinite;
+}
+
+#layer1: hover #nose {
+  transform: translate(-10px, 10px);
+}
+
+@keyframes eyes  {
+    0% { transform: translateX(0); }
+
+  20% { transform: translateX(-10px); }
+}
+
+
