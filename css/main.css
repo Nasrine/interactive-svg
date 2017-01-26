@@ -3,25 +3,36 @@
 }
 
 #eyes {
-  animation: eyes 2s linear;
+  animation: eyes 3s linear infinite;
 }
 
-#layer1:hover #eyes {
+#bear:hover #eyes {
   transform: translate(-10px, 10px);
 }
 
-#nose {
-  animation: nose 2s linear infinite;
+#right-ear {
+  transition: all .5s linear;
 }
 
-#layer1:hover #nose {
-  transform: translate(-10px, 10px);
+#bear:hover #right-ear {
+  transform: translateY(-10px);
 }
 
-@keyframes eyes  {
-    0% { transform: translateX(0); }
-
-  20% { transform: translateX(-10px); }
+#left-ear {
+  transition: all .5s linear;
 }
 
+#bear:hover #left-ear {
+  transform: translateY(-10px);
+}
 
+@keyframes eyes {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+}
